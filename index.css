@@ -1,4 +1,4 @@
-* {
+/* * {
     box-sizing: border-box;
   }
   
@@ -40,4 +40,80 @@
   section:nth-child(even) {
     background-color: #ddd;
   }
+   */
+
+   html, body {
+    height: 100%;
+   
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    
+  }
+  .content {
+    flex: 1 0 auto;
+  }
+  .footer {
+    flex-shrink: 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
   
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-instagram {
+        background: #125688;
+        color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-github {
+    background: teal;
+    color: white;
+  }
+
+  .col-md-6 {
+    border: 1px solid black;
+    height: 400px;
+    background-color: #3B5998
+  }
+  header {
+    text-align: center;
+    font-size: 2em;
+
+  }
+
+  ul {
+    color: azure;
+  }
+
+  #navy {
+    height: 350px;
+    width: 550px;
+  }
+
+  #profile {
+    height: 250px; 
+    width: 250px;
+  }
